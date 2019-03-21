@@ -7,7 +7,7 @@ public static void main(String[] args){
 	for (int i = 0; i < testcase ; i++){ 
 		int numberToCheck = inputNumber.nextInt();
 
-		if(numberToCheck < -10 || numberToCheck > 10){//determines is the variable is within the parameters
+		if(numberToCheck < -10 || numberToCheck > 10 || numberToCheck == 0){//determines is the variable is within the parameters
 			System.out.println("The input number is outside of parameters");
 			break;
 			}//if		
